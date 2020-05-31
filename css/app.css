@@ -1,0 +1,40 @@
+.ddd {
+    color: rgb(0, 0, 0);
+}
+.ddd span {
+    color: #560BD0;
+}
+.logo {
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #212229;
+    letter-spacing: -1.8px;
+}
+.vitau {
+    margin-bottom: 50px; 
+    margin-top: 20px;
+}
+.font {
+    font-size: 16px; 
+    font-weight: 500;
+}
+.sdd table {
+    width: 100% !important;
+}
+
+@media screen and (max-width: 992px) {
+    .font {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .done {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 580px) {
+    .vitau {
+        margin-bottom: 120px;
+    }
+}
