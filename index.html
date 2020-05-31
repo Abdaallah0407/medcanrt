@@ -7,49 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
-    <!-- Twitter -->
-    <meta name="twitter:site" content="@themepixels" />
-    <meta name="twitter:creator" content="@themepixels" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Azia" />
-    <meta
-      name="twitter:description"
-      content="Responsive Bootstrap 4 Dashboard Template"
-    />
-    <meta
-      name="twitter:image"
-      content="http://themepixels.me/azia/img/azia-social.png"
-    />
-
-    <!-- Facebook -->
-    <meta property="og:url" content="http://themepixels.me/azia" />
-    <meta property="og:title" content="Azia" />
-    <meta
-      property="og:description"
-      content="Responsive Bootstrap 4 Dashboard Template"
-    />
-
-    <meta
-      property="og:image"
-      content="http://themepixels.me/azia/img/azia-social.png"
-    />
-    <meta
-      property="og:image:secure_url"
-      content="http://themepixels.me/azia/img/azia-social.png"
-    />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="600" />
-
-    <!-- Meta -->
-    <meta
-      name="description"
-      content="Responsive Bootstrap 4 Dashboard Template"
-    />
-    <meta name="author" content="ThemePixels" />
-
-    <title>Azia Responsive Bootstrap 4 Dashboard Template</title>
+    <title>Medcantr</title>
 
     <!-- vendor css -->
     <link href="lib/fontawesome-free/css/all.min.css" rel="stylesheet" />
@@ -61,7 +19,6 @@
     <link href="lib/lightslider/css/lightslider.min.css" rel="stylesheet">
     <link href="lib/cryptofont/css/cryptofont.min.css" rel="stylesheet">
 
-    <!-- azia CSS -->
     <link rel="stylesheet" href="./css/azia.css" />
     <link rel="stylesheet" href="./css/app.css">
 
@@ -257,74 +214,4 @@
 
   <script src="js/azia.js"></script>
   <script src="js/dashboard.sampledata.js"></script>
-  <script>
-    $(function () {
-      "use strict";
-
-      $.plot(
-        "#flotChart",
-        [
-          {
-            data: dashData1,
-            color: "#3d0894",
-            bars: {
-              show: true,
-              lineWidth: 0,
-              barWidth: 0.5,
-              fill: 1,
-            },
-          },
-          {
-            data: dashData4,
-            color: "#2d066d",
-            bars: {
-              show: true,
-              lineWidth: 0,
-              barWidth: 0.5,
-              fill: 1,
-            },
-          },
-        ],
-        {
-          series: {
-            shadowSize: 0,
-          },
-          grid: {
-            borderWidth: 0,
-            labelMargin: 10,
-          },
-          yaxis: {
-            show: true,
-            min: 0,
-            max: 45,
-            ticks: 4,
-            tickColor: "rgba(255,255,255,.08)",
-            font: { color: "rgba(255,255,255,0)" },
-          },
-          xaxis: {
-            show: true,
-            position: "top",
-            tickColor: "rgba(255,255,255,.08)",
-            font: {
-              color: "rgba(255,255,255,.2)",
-              size: 11,
-            },
-          },
-        }
-      );
-
-      // animated smooth scroll on target from top menu
-      $("#azDemoBtn").on("click", function (e) {
-        var target = $(this).attr("href");
-        $("html, body").animate(
-          {
-            scrollTop: $("" + target).offset().top,
-          },
-          500
-        );
-
-        e.preventDefault();
-      });
-    });
-  </script>
 </html>
