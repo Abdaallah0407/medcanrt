@@ -2,13 +2,13 @@
     color: rgb(0, 0, 0);
 }
 .ddd span {
-    color: #560BD0;
+    color: white;
 }
 .logo {
     font-size: 28px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color: #212229;
+    color:white;
     letter-spacing: -1.8px;
 }
 .vitau {
@@ -19,8 +19,17 @@
     font-size: 16px; 
     font-weight: 500;
 }
+.blue {
+    background: #4B8EC3 ;
+}
 .sdd table {
     width: 100% !important;
+}
+.header {
+    background: #3E699E;
+}
+.container1 {
+    padding-right: 20px;
 }
 
 @media screen and (max-width: 992px) {
