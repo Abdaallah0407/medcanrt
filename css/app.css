@@ -52,10 +52,36 @@
 .modal-content-demo {
   width: auto;
 }
-.pacient-btn {
+
+.fc-center {
+  text-transform: capitalize;
+}
+.fc-button {
   background: #3e699e;
-  color: #ffffff;
-  border-radius: 5px;
+  border: none;
+}
+.patient-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.form-control {
+  margin-bottom: 10px;
+}
+.patient-user {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.patient-info {
+  display: flex;
+}
+.staff-users {
+  padding: 20px;
+  margin-bottom: 1rem;
+}
+.staff-right {
+  margin-left: auto;
 }
 @media screen and (min-width: 992px) {
   .az-header-menu-icon {

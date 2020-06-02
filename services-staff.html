@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Medcantr</title>
+
+    <!-- vendor css -->
+    <link href="lib/typicons.font/typicons.css" rel="stylesheet" />
+    <link href="lib/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/lightslider/css/lightslider.min.css" rel="stylesheet">
+    <link href="lib/cryptofont/css/cryptofont.min.css" rel="stylesheet">
+    <link href="lib/morris.js/morris.css" rel="stylesheet">
+    <link href="lib/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+    <link href="lib/jqvmap/jqvmap.min.css" rel="stylesheet">
+    <link href="fullcalendar/packages/core/main.css" rel="stylesheet">
+    <link href="fullcalendar/packages/daygrid/main.css" rel="stylesheet">
+    <link href="fullcalendar/packages/list/main.css" rel="stylesheet">
+    <link href="fullcalendar/packages/timegrid/main.css" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="css/azia.css" />
+    <link rel="stylesheet" href="css/app.css">
+
+  </head>
+  <body class="az-body bg ">
+  
+    <header class="bg-primary ">
+      <div class="az-header az-header-dashboard-four">
+        <div class="container-fluid">
+          <div class="az-header-left">
+            <a href="index.html" class="logo ddd">Me<span>dS</span>tar
+          </div><!-- az-header-left -->
+          <div class="az-header-center">
+          </div><!-- az-header-center -->
+          <div class="az-header-right">
+          <a href="#modaldemo8" class="modal-effect modal-window" data-toggle="modal" data-effect="effect-just-me"> Добавить пациента</a>
+            <div class="dropdown az-profile-menu">
+              <a href="" class="az-img-user"><img src="./img/depositphotos_83364950-stock-illustration-фон-плоские-здравоохранения-и-медицинских.jpg" alt=""></a>
+              <div class="dropdown-menu">
+                <div class="az-dropdown-header d-sm-none">
+                  <a href="" class="az-header-arrow"><i class="icon ion-md-arrow-back"></i></a>
+                </div>
+                <div class="az-header-profile">
+                  <div class="az-img-user">
+                    <img src="./img/depositphotos_83364950-stock-illustration-фон-плоские-здравоохранения-и-медицинских.jpg" alt="">
+                  </div><!-- az-img-user -->
+                  <h6>MedStar</h6>
+                </div><!-- az-header-profile -->
+              </div><!-- dropdown-menu -->
+            </div>
+          </div><!-- az-header-right -->
+        </div><!-- container -->
+      </div><!-- az-header -->
+    </header>
+
+    <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="az-sidebar bg-info text-white">
+        <div class="az-sidebar-body">
+          <ul class="nav">
+            <li class="nav-item ">
+              <a href="calendar.html" class="nav-link text-white "><i class="typcn typcn-calendar-outline"></i>Расписание</a>
+            </li><!-- nav-item -->
+            <li class="nav-item ">
+              <a href="patient.html" class="nav-link  text-white"><i class="typcn typcn-group-outline"></i>Пациенты</a>
+            </li><!-- nav-item -->
+            <li class="nav-item ">
+              <a href="services-staff.html" class="nav-link  text-white"><i class="typcn typcn-contacts"></i>Услуги и персонал</a>
+              
+            </li><!-- nav-item -->
+            <li class="nav-item ">
+              <a href="index.html" class="nav-link with-sub text-white"><i class="typcn typcn-document-text"></i>Отчёты</a>
+              <nav class="nav-sub">
+                <a href="index.html" class="nav-sub-link">Basic Tables</a>
+                <a href="index.html" class="nav-sub-link">Data Tables</a>
+              </nav>
+            </li><!-- nav-item -->
+          </ul><!-- nav -->
+        </div><!-- az-sidebar-body -->
+      </div><!-- az-sidebar -->
+      <div class="col-lg-9 col-md-9 col-sm-12 ">
+        
+        <div class="az-content-header d-block d-md-flex ">
+          <div class="sidebar-hamburger hamburger">
+            <div class="az-header-left">
+              <a href="" id="azSidebarToggle" class="az-header-menu-icon"><span></span></a>
+            </div><!-- az-header-left -->
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <div class=" d-block d-md-flex patient-form">
+                    <div class="sidebar-hamburger hamburger">
+                      <p class="mg-b-0  font">Услуги клиники</p>
+                     
+                   </div> 
+                   <div class="row">
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Код">
+                        <input type="text" class="form-control" placeholder="Название Услуги"> 
+                    </div><!-- col -->
+                    
+                    <div class="col-md mg-t-10 mg-md-t-0">
+                      <button class="btn btn-primary btn-block">Найти услугу</button>
+                    </div><!-- col -->
+                  </div><!-- row -->    
+                </div>
+          
+                  <table class="table  mg-b-0">
+                    <thead>
+                      <tr>
+                        <th>Код</th>
+                        <th>Название</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Консультация</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Терапия</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Хирургия</td>
+                      
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Косметалогия</td>
+                       
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Стоматология взрослая</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Стоматология детская</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Травматология</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>Химия терапия</td>
+                       
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td>Имплантация</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">10</th>
+                        <td>Платика костных тыканей</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                    </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 ">
+                        <div class=" d-block d-md-flex patient-form  text-white  ">
+                            <div class="container-fluid sidebar-hamburger hamburger bg-primary text-white staff-users" >
+                                <div class="az-header-left">
+                                    <p class="mg-b-0  font">Доктора</p>
+                                </div><!-- az-header-left -->
+                                <div class="az-header-right staff-right">
+                                    <a href="#modaldemo3" class="modal-effect modal-window" data-toggle="modal" data-effect="effect-just-me"> Добавить врача</a>
+                                </div><!-- az-header-right -->
+                              
+                            </div>
+                            <table class="table  mg-b-0">
+                                <thead>
+                                  <tr>
+                                    <th>ФИО</th>
+                                    <th>E-mail</th>
+                                    <th>Телефон</th>
+                                    <th>Специальность</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">Могуева Гульмира Азизовна</th>
+                                    <td>aziza@gmail.com</td>
+                                    <td>0 555 789 765</td>
+                                    <td>Невропатолог</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Миржалалова Рано Анваровна</th>
+                                    <td>rano@gmail.com</td>
+                                    <td>0 700 675 321</td>
+                                    <td>Акушер</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Кабылбек уулу Эрнис</th>
+                                    <td>ernis@gmail.com</td>
+                                    <td>0 708 654 535</td>
+                                    <td>Хирург</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Кенжебаев Калыбек Курманбекович</th>
+                                    <td>kalybek@gmail.com</td>
+                                    <td>0 700 617 567</td>
+                                    <td>Хирург</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Кенжалиева Салтанат Марлисовна</th>
+                                    <td>0 550 765 321</td>
+                                    <td>caltanat@gmail.com</td>
+                                    <td>Гинеколог</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Асамбаев Бакыт Абдыкадырович</th>
+                                    <td>0 554 667 700</td>
+                                    <td>bakyt@gmail.com</td>
+                                    <td>Остеопат</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">
+                                     Валяева Елена Александровна</th>
+                                    <td>0 555 876 900</td>
+                                    <td>elena@gmail.com</td>
+                                    <td>Терапевт </td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Васильева Виктория Александровна</th>
+                                    <td>0 777 876 987</td>
+                                    <td>viltoriya@gmail.com</td>
+                                    <td>Педиатр</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Гаджал Нурмери Туратбековна</th>
+                                    <td>0 770 617 810</td>
+                                    <td>nurmeri@gmail.com</td>
+                                    <td>Дерматокосметолог</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Жумалиев Максат Турсунбаевич</th>
+                                    <td>0 779 786 913</td>
+                                    <td>maksat@gmail.com</td>
+                                    <td>Стоматолог</td>
+                                  </tr>
+                                                              
+                                </tbody>
+                              </table>
+                          </div>
+                    </div>
+        </div>
+    
+    </div>
+  </div>
+
+  <div class="az-footer">
+    <div class="container">
+      <span>© 2020 Azia Responsive Bootstrap 4 Dashboard Template</span>
+      <span>Designed by: ThemePixels</span>
+    </div><!-- container -->
+  </div>
+  
+  <div id="modaldemo8" class="modal">
+    <div class="modal-dialog modal-dialog-centered " role="document">
+      <div class="modal-content modal-content-demo">
+        <div class="modal-header">
+          <h6 class="modal-title">Регистрация Пацента</h6>
+          <button
+            type="button"
+            class="close mr-3 mr-sm-0"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div
+            class="d-flex flex-column wd-md-500 pd-20 pd-sm-25 bg-gray-200"
+          >
+          <div class="row row-xs align-items-center mg-b-20">
+              <div class="col-md-4">
+                <label class="form-label mg-b-0">Ф.И.О Пациэнта </label>
+              </div><!-- col -->
+              <div class="col-md-8 mg-t-5 mg-md-t-0">
+                <input type="text" class="form-control" placeholder="Ваше Ф.И.О">
+              </div><!-- col -->
+            </div><!-- row -->
+
+            <div class="row row-xs align-items-center mg-b-20">
+              <div class="col-md-4">
+                <label class="form-label mg-b-0">Дата Рождения</label>
+              </div><!-- col -->
+              <div class="col-md-8 mg-t-5 mg-md-t-0">
+                <input type="date" class="form-control" placeholder="Дата Рождения">
+              </div><!-- col -->
+            </div><!-- row -->
+            <div class="row row-xs align-items-center mg-b-20">
+              <div class="col-md-4">
+                <label class="form-label mg-b-0">ИНН</label>
+              </div><!-- col -->
+              <div class="col-md-8 mg-t-5 mg-md-t-0">
+                <input type="text" class="form-control" placeholder="ИНН">
+              </div><!-- col -->
+            </div><!-- row -->
+
+            <div class="row row-xs align-items-center mg-b-20">
+              <div class="col-md-4">
+                <label class="form-label mg-b-0">Пол</label>
+              </div><!-- col -->
+              <div class="col-md-8 mg-t-5 mg-md-t-0">
+                 
+                  <span>Мужской</span> <input type="checkbox" checked="">
+              
+                  <span>Женский</span> <input type="checkbox">
+            
+              </div><!-- col -->
+            </div><!-- row -->
+            <div class="row row-xs align-items-center mg-b-20">
+              <div class="col-md-4">
+                <label class="form-label mg-b-0">Телефон</label>
+              </div><!-- col -->
+              <div class="col-md-8 mg-t-5 mg-md-t-0">
+                <input type="tel" class="form-control" placeholder="Телефон">
+              </div><!-- col -->
+            </div><!-- row -->
+            <div class="row row-xs align-items-center mg-b-20">
+              <div class="col-md-4">
+                <label class="form-label mg-b-0">Статус</label>
+              </div><!-- col -->
+              <div class="col-md-8 mg-t-5 mg-md-t-0">   
+                  <select
+                  class="form-control"
+                >
+                  <option selected disabled hidden>Прайс</option>
+                  <option value="1" class="select-value">Обычный</option>
+                  <option value="2" class="select-value">Веб Прайс</option>
+                </select>
+              </div><!-- col -->
+            </div><!-- row -->
+            
+            <button class="btn btn-primary pd-x-30 mg-r-5">Добавить пациента</button>
+          </div>
+        </div>
+  </div>
+  </div>
+  </div>
+  <div id="modaldemo3" class="modal">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content modal-content-demo">
+        <div class="modal-header">
+          <h6 class="modal-title">Регистрация врача</h6>
+          <button
+            type="button"
+            class="close mr-3 mr-sm-0"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body col-md-12">
+          <div class="pd-30 pd-sm-40 wd-md-500 bg-gray-200 ">
+            <div class="row row-xs align-items-center mg-b-20">
+              <div class="col-md-4">
+                <label class="form-label mg-b-0">Фамилия</label>
+              </div>
+              <!-- col -->
+              <div class="col-md-8 mg-t-5 mg-md-t-0">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your firstname"
+                />
+              </div>
+              <!-- col -->
+            </div>
+            <!-- row -->
+
+            <div class="row row-xs align-items-center mg-b-20">
+              <div class="col-md-4">
+                <label class="form-label mg-b-0">Имя</label>
+              </div>
+              <!-- col -->
+              <div class="col-md-8 mg-t-5 mg-md-t-0">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your lastname"
+                />
+              </div>
+              <!-- col -->
+            </div>
+            <!-- row -->
+            <div class="row row-xs align-items-center mg-b-20">
+              <div class="col-md-4">
+                <label class="form-label mg-b-0">Отчество</label>
+              </div>
+              <!-- col -->
+              <div class="col-md-8 mg-t-5 mg-md-t-0">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your lastname"
+                />
+              </div>
+              <!-- col -->
+            </div>
+            <!-- row -->
+            <div class="row row-xs align-items-center mg-b-20">
+              <div class="col-md-4">
+                <label class="form-label mg-b-0">Дата Рождения</label>
+              </div>
+              <!-- col -->
+              <div class="col-md-8 mg-t-5 mg-md-t-0">
+                <input
+                  type="date"
+                  class="form-control"
+                  placeholder="Дата Рождения"
+                />
+              </div>
+              <!-- col -->
+            </div>
+            <!-- row -->
+            <div class="row row-xs align-items-center mg-b-20">
+              <div class="col-md-4">
+                <label class="form-label mg-b-0">Пол</label>
+              </div>
+              <!-- col -->
+              <div class="col-md-8 mg-t-5 mg-md-t-0">
+                <span>Мужской</span> <input type="checkbox" checked="" />
+
+                <span>Женский</span> <input type="checkbox" />
+              </div>
+              <!-- col -->
+            </div>
+            <!-- row -->
+            <div class="row row-xs align-items-center mg-b-20">
+              <div class="col-md-4">
+                <label class="form-label mg-b-0">Телефон</label>
+              </div>
+              <!-- col -->
+              <div class="col-md-8 mg-t-5 mg-md-t-0">
+                <input
+                  type="tel"
+                  class="form-control"
+                  placeholder="Дата Рождения"
+                />
+              </div>
+              <!-- col -->
+            </div>
+            <!-- row -->
+            <div class="row row-xs align-items-center mg-b-20">
+              <div class="col-md-4">
+                <label class="form-label mg-b-0">Email</label>
+              </div>
+              <!-- col -->
+              <div class="col-md-8 mg-t-5 mg-md-t-0">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <!-- col -->
+            </div>
+            <!-- row -->
+            <div class="row row-xs align-items-center mg-b-20">
+              <div class="col-md-4">
+                <label class="form-label mg-b-0">Password</label>
+              </div>
+              <!-- col -->
+              <div class="col-md-8 mg-t-5 mg-md-t-0">
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <!-- col -->
+            </div>
+            <!-- row -->
+            <div class="col-md mg-t-10 mg-md-t-0">
+              <button class="btn btn-primary btn-block">Добавить врача</button>
+            </div><!-- col -->
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- modal -->
+
+  </body>
+  <script src="./lib/jquery/jquery.min.js"></script>
+  <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./lib/ionicons/ionicons.js"></script>
+  <script src="./lib/jquery.flot/jquery.flot.js"></script>
+  <script src="./lib/jquery.flot/jquery.flot.resize.js"></script>
+  <script src="./lib/raphael/raphael.min.js"></script>
+  <script src="./lib/morris.js/morris.min.js"></script>
+  <script src="./lib/jqvmap/jquery.vmap.min.js"></script>
+  <script src="./lib/jqvmap/maps/jquery.vmap.usa.js"></script>
+  <script src="./js/fullcalendar.js"></script>
+  <script src="./fullcalendar/packages/core/main.js"></script>
+  <script src="./fullcalendar/packages/core/locales-all.js"></script>
+  <script src="./fullcalendar/packages/daygrid/main.js"></script>
+  <script src="./fullcalendar/packages/list/main.js"></script>
+  <script src="./fullcalendar/packages/timegrid/main.js"></script>
+  <script src="./fullcalendar/packages/interaction/main.js"></script>
+ 
+  
+
+  <script src="./js/azia.js"></script>
+  <script src="./js/dashboard.sampledata.js"></script>
+  <script>
+    $(function(){
+      'use strict'
+
+      $('.az-sidebar .with-sub').on('click', function(e){
+        e.preventDefault();
+        $(this).parent().toggleClass('show');
+        $(this).parent().siblings().removeClass('show');
+      })
+
+      $(document).on('click touchstart', function(e){
+        e.stopPropagation();
+
+        // closing of sidebar menu when clicking outside of it
+        if(!$(e.target).closest('.az-header-menu-icon').length) {
+          var sidebarTarg = $(e.target).closest('.az-sidebar').length;
+          if(!sidebarTarg) {
+            $('body').removeClass('az-sidebar-show');
+          }
+        }
+      });
+
+      $('#azSidebarToggle').on('click', function(e){
+        e.preventDefault();
+
+        if(window.matchMedia('(min-width: 992px)').matches) {
+          $('body').toggleClass('az-sidebar-hide');
+        } else {
+          $('body').toggleClass('az-sidebar-show');
+        }
+      })
+
+      /* ----------------------------------- */
+      /* Date calendar*/
+      
+      
+    });
+  </script>
+</html>

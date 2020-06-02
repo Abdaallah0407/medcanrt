@@ -18,6 +18,11 @@
     <link href="lib/morris.js/morris.css" rel="stylesheet">
     <link href="lib/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
     <link href="lib/jqvmap/jqvmap.min.css" rel="stylesheet">
+    <link href="fullcalendar/packages/core/main.css" rel="stylesheet">
+    <link href="fullcalendar/packages/daygrid/main.css" rel="stylesheet">
+    <link href="fullcalendar/packages/list/main.css" rel="stylesheet">
+    <link href="fullcalendar/packages/timegrid/main.css" rel="stylesheet">
+
 
 
     <link rel="stylesheet" href="css/azia.css" />
@@ -26,7 +31,7 @@
   </head>
   <body class="az-body bg ">
   
-    <header class="bg-primary">
+    <header class="bg-primary ">
       <div class="az-header az-header-dashboard-four">
         <div class="container-fluid">
           <div class="az-header-left">
@@ -70,7 +75,7 @@
             </li><!-- nav-item -->
             <li class="nav-item ">
               <a href="services-staff.html" class="nav-link  text-white"><i class="typcn typcn-contacts"></i>Услуги и персонал</a>
-             
+            
             </li><!-- nav-item -->
             <li class="nav-item ">
               <a href="index.html" class="nav-link with-sub text-white"><i class="typcn typcn-document-text"></i>Отчёты</a>
@@ -82,139 +87,172 @@
           </ul><!-- nav -->
         </div><!-- az-sidebar-body -->
       </div><!-- az-sidebar -->
-      <div class="col-lg-9 col-md-9 col-sm-12 col-12 sdd">
+      <div class="col-lg-9 col-md-9 col-sm-12 ">
         
-        <div class="az-content-header d-block d-md-flex vitau">
+        <div class="az-content-header d-block d-md-flex ">
           <div class="sidebar-hamburger hamburger">
             <div class="az-header-left">
               <a href="" id="azSidebarToggle" class="az-header-menu-icon"><span></span></a>
             </div><!-- az-header-left -->
-            <p class="mg-b-0  font">Отчёт по процентам от услуг</p>
           </div>
-          <div class="az-dashboard-header-right" style="margin-bottom: 20px;">
-            <div>
-              <label class="tx-13">
-                Рейтинги клиентов</label>
-              <div class="az-star">
-                <i class="typcn typcn-star active"></i>
-                <i class="typcn typcn-star active"></i>
-                <i class="typcn typcn-star active"></i>
-                <i class="typcn typcn-star active"></i>
-                <i class="typcn typcn-star"></i>
-                <span>(12,775)</span>
-              </div>
-            </div>
-            <div>
-              <label class="tx-13">Поситители (онлайн)</label>
-              <h5>43 176</h5>
-            </div>
-            <div>
-              <label class="tx-13">Посищения (за месяц)</label>
-              <h5>932 210</h5>
-            </div>
-          </div><!-- az-dashboard-header-right -->
         </div>
-
-        <table class="table table-striped mg-b-0">
-          <thead>
-            <tr>
-              <th>Номер</th>
-              <th>Врач</th>
-              <th>ФИО</th>
-              <th>Цена</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Александр Сергеевич Пушкин</td>
-              <td>Михоил Лермонтов</td>
-              <td>2 000</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Александр Сергеевич Пушкинs</td>
-              <td>Михоил Лермонтов</td>
-              <td>5 000</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Александр Сергеевич Пушкин</td>
-              <td>Михоил Лермонтов</td>
-              <td>3 000</td>
-            </tr>
-            <tr>
-              <th scope="row">4</th>
-              <td>Александр Сергеевич Пушкин</td>
-              <td>Михоил Лермонтов</td>
-              <td>7 000</td>
-            </tr>
-            <tr>
-              <th scope="row">5</th>
-              <td>Александр Сергеевич Пушкин</td>
-              <td>Михоил Лермонтов</td>
-              <td>15 000</td>
-            </tr>
-            <tr>
-              <th scope="row">6</th>
-              <td>Александр Сергеевич Пушкин</td>
-              <td>Михоил Лермонтов</td>
-              <td>15 000</td>
-            </tr>
-            <tr>
-              <th scope="row">7</th>
-              <td>Александр Сергеевич Пушкин</td>
-              <td>Михоил Лермонтов</td>
-              <td>15 000</td>
-            </tr>
-            <tr>
-              <th scope="row">8</th>
-              <td>Александр Сергеевич Пушкин</td>
-              <td>Михоил Лермонтов</td>
-              <td>15 000</td>
-            </tr>
-            <tr>
-              <th scope="row">9</th>
-              <td>Александр Сергеевич Пушкин</td>
-              <td>Михоил Лермонтов</td>
-              <td>15 000</td>
-            </tr>
-            <tr>
-              <th scope="row">10</th>
-              <td>Александр Сергеевич Пушкинs</td>
-              <td>Михоил Лермонтов</td>
-              <td>5 000</td>
-            </tr>
-            <tr>
-              <th scope="row">11</th>
-              <td>Александр Сергеевич Пушкинs</td>
-              <td>Михоил Лермонтов</td>
-              <td>5 000</td>
-            </tr>
-            <tr>
-              <th scope="row">11</th>
-              <td>Александр Сергеевич Пушкинs</td>
-              <td>Михоил Лермонтов</td>
-              <td>5 000</td>
-            </tr>
-            <tr>
-              <th scope="row">11</th>
-              <td>Александр Сергеевич Пушкинs</td>
-              <td>Михоил Лермонтов</td>
-              <td>5 000</td>
-            </tr>
-
-            <tr>
-              <th scope="row">11</th>
-              <td>Александр Сергеевич Пушкинs</td>
-              <td>Михоил Лермонтов</td>
-              <td>5 000</td>
-            </tr>
-          </tbody>
-        </table>
-
-
-      </div>
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 ">
+                <div class=" d-block d-md-flex patient-form">
+                    <div class="sidebar-hamburger hamburger">
+                      <p class="mg-b-0  font">Поис пациента</p>
+                     
+                   </div> 
+                   <div class="row">
+                    <div class="col-md-4">
+                      <input type="text" class="form-control" placeholder="ФИО">
+                      <input type="date" class="form-control" placeholder="Дата Рождения">
+                    </div><!-- col -->
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <select
+                                class="form-control"
+                              >
+                                <option selected disabled hidden>Пол</option>
+                                <option value="1" class="select-value">Мужской</option>
+                                <option value="2" class="select-value">Женский</option>
+                              </select>
+                             
+                            </div>
+                            <div class="col-md-6">
+                               
+                              <input type="text" class="form-control" placeholder="Карточка">
+                            </div>
+                        </div>
+                        
+                        <input type="text" class="form-control" placeholder="Описание пациента">
+                    </div><!-- col -->
+                    <div class="col-md-4">
+                        <input type="tel" class="form-control" placeholder="Телефон пациента">
+                        <select
+                                class="form-control"
+                              >
+                                <option selected disabled hidden>Врач пациента</option>
+                                <option value="1" class="select-value">Травматолог</option>
+                                <option value="2" class="select-value">Хирург</option>
+                              </select>
+                    </div><!-- col -->
+                    <div class="col-md mg-t-10 mg-md-t-0">
+                      <button class="btn btn-primary btn-block">Найти пациента</button>
+                    </div><!-- col -->
+                  </div><!-- row -->    
+                </div>
+          
+                  <table class="table  mg-b-0">
+                    <thead>
+                      <tr>
+                        <th>Карточка</th>
+                        <th>ФИО</th>
+                        <th>Возраст</th>
+                        <th>Телефон</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Аматов Урмат</td>
+                        <td>23</td>
+                        <td>0 500 987 675</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Айдарбеков Абил</td>
+                        <td>21</td>
+                        <td>0 555 456 787</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Алиев Нурмат</td>
+                        <td>22</td>
+                        <td>0 709 765 675</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Дооронбеков Актан</td>
+                        <td>35</td>
+                        <td>0 700 617 567</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Ким Аликсней</td>
+                        <td>25</td>
+                        <td>0 554 778 776</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Сучков Никита</td>
+                        <td>18</td>
+                        <td>0 997 787 654</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Рамонов Максим</td>
+                        <td>38</td>
+                        <td>0 996 789 776</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>Жапаров Руслан</td>
+                        <td>27</td>
+                        <td>0 709 618 900</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td>Кандрашёв Данил</td>
+                        <td>24</td>
+                        <td>0 700 768 543</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">10</th>
+                        <td>Тен Николай</td>
+                        <td>51</td>
+                        <td>0 555 567 543</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                    </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                        <div class="d-block d-md-flex patient-form bg-info text-white  ">
+                            <div class="sidebar-hamburger hamburger bg-primary text-white">
+                              <p class="mg-b-0  font">Контакты</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                   
+                                    <div class="az-header-profile patient-info">
+                                        <div class="az-img-user ">
+                                            <img src="./img/depositphotos_83364950-stock-illustration-фон-плоские-здравоохранения-и-медицинских.jpg" class="patient-user" alt="">
+                                        </div><!-- az-img-user -->
+                                        <div class="nav-link">
+                                            <h5 class="nav-link">
+                                                Жапаров Руслан
+                                            </h5>
+                                            <span  class="nav-link">
+                                                Возраст: 27
+                                            </span>
+                                            <span  class="nav-link">
+                                                Карточка: 8
+                                            </span>
+                                            <span class="nav-link ">Статус: Постоянный клиент</span>
+                                            <a href="" class="nav-link text-white"><i class="typcn typcn-phone"></i> 0 709 618 900</a>
+                                            <span class="nav-link">Баланс: 5 000 c</span>
+                                            <span class="nav-link">Последнее посешение: 01.06.2020 23:15</span>
+                                            
+                                        </div>
+                                        
+                                      </div><!-- az-header-profile -->
+                                </div>
+                              </div><!-- row -->    
+                          </div>
+                    </div>
+        </div>
+    
     </div>
   </div>
 
@@ -320,6 +358,15 @@
   <script src="./lib/morris.js/morris.min.js"></script>
   <script src="./lib/jqvmap/jquery.vmap.min.js"></script>
   <script src="./lib/jqvmap/maps/jquery.vmap.usa.js"></script>
+  <script src="./js/fullcalendar.js"></script>
+  <script src="./fullcalendar/packages/core/main.js"></script>
+  <script src="./fullcalendar/packages/core/locales-all.js"></script>
+  <script src="./fullcalendar/packages/daygrid/main.js"></script>
+  <script src="./fullcalendar/packages/list/main.js"></script>
+  <script src="./fullcalendar/packages/timegrid/main.js"></script>
+  <script src="./fullcalendar/packages/interaction/main.js"></script>
+ 
+  
 
   <script src="./js/azia.js"></script>
   <script src="./js/dashboard.sampledata.js"></script>
@@ -356,123 +403,9 @@
       })
 
       /* ----------------------------------- */
-      /* Dashboard content */
-
-      $('#compositeline').sparkline('html', {
-        lineColor: '#cecece',
-        lineWidth: 2,
-        spotColor: false,
-        minSpotColor: false,
-        maxSpotColor: false,
-        highlightSpotColor: null,
-        highlightLineColor: null,
-        fillColor: '#f9f9f9',
-        chartRangeMin: 0,
-        chartRangeMax: 10,
-        width: '100%',
-        height: 20,
-        disableTooltips: true
-      });
-
-      $('#compositeline2').sparkline('html', {
-        lineColor: '#cecece',
-        lineWidth: 2,
-        spotColor: false,
-        minSpotColor: false,
-        maxSpotColor: false,
-        highlightSpotColor: null,
-        highlightLineColor: null,
-        fillColor: '#f9f9f9',
-        chartRangeMin: 0,
-        chartRangeMax: 10,
-        width: '100%',
-        height: 20,
-        disableTooltips: true
-      });
-
-      $('#compositeline3').sparkline('html', {
-        lineColor: '#cecece',
-        lineWidth: 2,
-        spotColor: false,
-        minSpotColor: false,
-        maxSpotColor: false,
-        highlightSpotColor: null,
-        highlightLineColor: null,
-        fillColor: '#f9f9f9',
-        chartRangeMin: 0,
-        chartRangeMax: 10,
-        width: '100%',
-        height: 20,
-        disableTooltips: true
-      });
-
-      $('#compositeline4').sparkline('html', {
-        lineColor: '#cecece',
-        lineWidth: 2,
-        spotColor: false,
-        minSpotColor: false,
-        maxSpotColor: false,
-        highlightSpotColor: null,
-        highlightLineColor: null,
-        fillColor: '#f9f9f9',
-        chartRangeMin: 0,
-        chartRangeMax: 10,
-        width: '100%',
-        height: 20,
-        disableTooltips: true
-      });
-
-
-      var morrisData = [
-        { y: 'Oct 01', a: 95000, b: 70000 },
-        { y: 'Oct 05', a: 75000,  b: 55000 },
-        { y: 'Oct 10', a: 50000,  b: 40000 },
-        { y: 'Oct 15', a: 75000,  b: 65000 },
-        { y: 'Oct 20', a: 50000,  b: 40000 },
-        { y: 'Oct 25', a: 80000, b: 90000 },
-        { y: 'Oct 30', a: 75000,  b: 65000 }
-      ];
-
-      new Morris.Bar({
-        element: 'morrisBar1',
-        data: morrisData,
-        xkey: 'y',
-        ykeys: ['a', 'b'],
-        labels: ['Online', 'Offline'],
-        barColors: ['#560bd0', '#00cccc'],
-        preUnits: '$',
-        barSizeRatio: 0.55,
-        gridTextSize: 11,
-        gridTextColor: '#494c57',
-        gridTextWeight: 'bold',
-        gridLineColor: '#999',
-        gridStrokeWidth: 0.25,
-        hideHover: 'auto',
-        resize: true,
-        padding: 5
-      });
-
-      $('#vmap2').vectorMap({
-        map: 'usa_en',
-        showTooltip: true,
-        backgroundColor: '#fff',
-        color: '#60adff',
-        colors: {
-          mo: '#9fceff',
-          fl: '#60adff',
-          or: '#409cff',
-          ca: '#005cbf',
-          tx: '#005cbf',
-          wy: '#005cbf',
-          ny: '#007bff'
-        },
-        hoverColor: '#222',
-        enableZoom: false,
-        borderWidth: 1,
-        borderColor: '#fff',
-        hoverOpacity: .85
-      });
-
+      /* Date calendar*/
+      
+      
     });
   </script>
 </html>
